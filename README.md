@@ -15,46 +15,7 @@ Atau Bapak Ibu cukup menginstall requirements.txt dengan cara berikut
 pip install -r requirements.txt
 ```
 
-## Rubics
-
-- Environment preparation (2 points)
-- Finding the right key to scrap the data  & Extracting the right information (5 points)
-- Creating data frame & Data wrangling (5 points)
-- Creating a tidy python notebook as a report. (2 points)
-- Implement it on flask dashboard (2 points)
-
-
-## What You Need to Do
-
-* Silahkan mencoba melakukan scraping soal di bawah menggunakan `beautiful soup` di notebook Bapak/Ibu terlebih dahulu.
-* Bapak/Ibu dapat men-clone repo ini.
-* Silahkan buka notebook template pada capstone ini dan isi sesuai dengan arahan yang ada. Pastikan Bapak/Ibu memberikan analisa yang dibutuhkan pada notebook tersebut.
-* File di repo ini adalah skeleton yang dapat digunakan untuk membuat flask dashboard sederhana.
-* Silahkan isi di bagian yang masih kosong.
-* Isi fungsi `scrap` dengan proses scraping yang sudah Bapak/Ibu lakukan di notebook. 
-
-```python
-table = soup.find(___)
-tr = table.find_all(___)
-```
-
-* Isi bagian ini untuk menyimpan hasil scrap yang Bapak/Ibu buat menjadi sebuah dataframe.
-
-```python
-df = pd.DataFrame(name of your tupple, columns = (name of the columns))
-```
-
-* Terakhir Bapak/Ibu dapat menggunakan fungsi `scrap` dengan cara mengisi bagian berikut dengan link web yang Bapak/Ibu scrap.
-
-```python
-df = scrap(___) #insert url here
-```
-
-* Bapak/Ibu juga dapat bermain dengan UI nya pada `index.html` yang dimana Bapak/Ibu dapat mengikuti comment yang ada untuk mengetahui bagian mana yang dapat diubah. 
-
 ### The Final Mission
-
-Pada captsone kali ini, Bapak Ibu bisa memilih salah satu soal ini untuk dikerjakan.
 
 1. (Easy) Data Volume Penjualan Ethereum dari `https://www.coingecko.com/en/coins/ethereum/historical_data/usd?start_date=2020-01-01&end_date=2021-06-30#panel`
 
