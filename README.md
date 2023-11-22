@@ -1,6 +1,5 @@
 # Web-Scrapping using Beautifulsoup
-
-Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Academy Data Analytics Specialization. Deliverables yang diharapkan dari projek ini adalah melakukan simple webscrapping untuk mendapatkan informasi. Untuk step by step guide, Bapak Ibu dipersilahkan untuk membuka git saya [Click here](https://github.com/t3981-h/Webscrapping-with-BeautifulSoup "Webscrapping with Beautiful Soup"). Kita juga akan memanfaatkan flask dashboard sederhana untuk menampilkan hasil scrap dan visualisasi kita.
+Web scraping, also known as web harvesting or web data extraction, is the process of automatically extracting data from websites. It involves fetching a web page and extracting data from it. The data can be parsed, searched, reformatted, and copied into a spreadsheet or loaded into a database. Web scraping can be done manually, but in most cases, automated tools are preferred as they can be less costly and work at a faster rate. Web scraping is used for various purposes, including lead generation, price monitoring, market research, and content aggregation. However, some websites use methods to prevent web scraping, such as detecting and disallowing bots from crawling their pages. In response, there are web scraping systems that rely on using techniques in DOM parsing, computer vision, and natural language processing to simulate human browsing to enable gathering web page content for offline parsing.
 
 ## Dependencies
 
@@ -8,29 +7,3 @@ Projek ini dikembangkan sebagai salah satu capstone project dari Algoritma Acade
 - pandas
 - flask
 - matplotlib
-
-Atau Bapak Ibu cukup menginstall requirements.txt dengan cara berikut
-
-```python
-pip install -r requirements.txt
-```
-
-### The Final Mission
-
-1. (Easy) Data Volume Penjualan Ethereum dari `https://www.coingecko.com/en/coins/ethereum/historical_data/usd?start_date=2020-01-01&end_date=2021-06-30#panel`
-
-   * Dari halaman tersebut carilah `Date`, dan `Volume`.
-   * Buat lah plot pergerakan volume perdagangan dari Ethereum. 
-
-2. (Medium) Data kurs US Dollar ke rupiah dari `https://www.exchange-rates.org/history/IDR/USD/T`
-
-    * Dari halaman tersebut carilah `harga harian`, dan `tanggal`
-    * Bualah plot pergerakan kurs USD 
-    
-3. (Hard) Data film yang rilis di tahun 2021 dari `https://www.imdb.com/search/title/?release_date=2021-01-01,2021-12-31`
-
-    * Dari Halaman tersebut carilah `judul` , `imdb rating` , `metascore`, dan `votes`
-    * Buatlah plot dari 7 film paling populer di tahun 2021.
-
-
-Happy learning! 
